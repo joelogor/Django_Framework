@@ -5,6 +5,11 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
+    "cart>=1.2.3",
     "django>=6.1.3",
     "djangorestframework>=3.18.3",
+    "djangorestframework-simplejwt>=5.5.1",
+    "load-dotenv>=0.1.0",
+    "mysqlclient>=2.3.1",
+    "python-dotenv>=1.2.4",
 ]
